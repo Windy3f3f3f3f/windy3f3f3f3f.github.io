@@ -235,25 +235,28 @@
         }
 
         /* ===== Mobile ===== */
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             .topnav { display: none; }
             .layout {
                 flex-direction: column;
                 padding: 20px 16px;
                 gap: 0;
             }
+            #about-me {
+                border-bottom: 1px solid var(--border);
+                padding-bottom: 20px;
+            }
             .sidebar {
                 width: 100%;
                 display: flex;
                 flex-direction: row;
-                align-items: flex-start;
-                gap: 16px;
+                align-items: center;
+                gap: 20px;
                 position: static;
                 padding-top: 0;
                 text-align: left;
-                margin-bottom: 20px;
-                padding-bottom: 20px;
-                border-bottom: 1px solid var(--border);
+                margin-bottom: 10px; /* Reduced margin */
+                padding-bottom: 10px; /* Reduced padding */
             }
             .sidebar-avatar {
                 width: 100px;
@@ -410,5 +413,6 @@
 </div>
 
 
+<script data-goatcounter="https://diwang.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
