@@ -182,14 +182,26 @@
         /* ===== Specific Sections ===== */
 .pub-item {
             margin-bottom: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
         }
         .pub-item::before {
             display: none;
         }
         .pub-title {
             font-weight: 600;
-            display: block;
-            margin-bottom: 2px;
+            flex: 1;
+        }
+        .pub-venue {
+            font-size: 14px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+        .pub-authors-line {
+            width: 100%;
         }
         .pub-authors {
             font-size: 14.5px;
@@ -308,23 +320,34 @@
         <div class="pub-list">
             <div class="pub-item">
                 <span class="pub-title">Speculating LLMs' Chinese Training Data Pollution from Their Tokens</span>
-                <span class="pub-authors">Qingjie Zhang, <span class="me">Di Wang</span>, Haoting Qian, Yan Liu, Tianwei Zhang, Ke Xu, Qi Li, Minlie Huang, Hewu Li, Han Qiu*</span><br>
-                <span class="pub-venue">EMNLP 2025 Main</span>
+                <span class="pub-venue">EMNLP'25</span>
+                <span class="pub-authors-line"><span class="pub-authors">Qingjie Zhang, <span class="me">Di Wang</span>, Haoting Qian, Yan Liu, Tianwei Zhang, Ke Xu, Qi Li, Minlie Huang, Hewu Li, Han Qiu*</span></span>
             </div>
             <div class="pub-item">
                 <span class="pub-title">Understanding the Dark Side of LLMs' Intrinsic Self-Correction</span>
-                <span class="pub-authors">Qingjie Zhang, <span class="me">Di Wang</span>, Haoting Qian, Yiming Li, Tianwei Zhang, Minlie Huang, Han Qiu*</span><br>
-                <span class="pub-venue">ACL 2025 Main</span>
+                <span class="pub-venue">ACL'25</span>
+                <span class="pub-authors-line"><span class="pub-authors">Qingjie Zhang, <span class="me">Di Wang</span>, Haoting Qian, Yiming Li, Tianwei Zhang, Minlie Huang, Han Qiu*</span></span>
             </div>
             <div class="pub-item">
                 <span class="pub-title">A Benchmark for Semantic Sensitive Information in LLMs Outputs</span>
-                <span class="pub-authors">Qingjie Zhang, Han Qiu*, <span class="me">Di Wang</span>, Yiming Li, Tianwei Zhang, Wenyu Zhu, Haiqin Weng, Yan Liu, Chao Zhang</span><br>
-                <span class="pub-venue">ICLR 2025</span>
+                <span class="pub-venue">ICLR'25</span>
+                <span class="pub-authors-line"><span class="pub-authors">Qingjie Zhang, Han Qiu*, <span class="me">Di Wang</span>, Yiming Li, Tianwei Zhang, Wenyu Zhu, Haiqin Weng, Yan Liu, Chao Zhang</span></span>
             </div>
             <div class="pub-item">
                 <span class="pub-title">Laser Shield: a Physical Defense with Polarizer against Laser Attack</span>
-                <span class="pub-authors">Qingjie Zhang, Lijun Chi, <span class="me">Di Wang</span>, Mounira Msahli, Gerard Memmi, Tianwei Zhang, Chao Zhang, Han Qiu*</span><br>
-                <span class="pub-venue">DAC 2024</span>
+                <span class="pub-venue">DAC'24</span>
+                <span class="pub-authors-line"><span class="pub-authors">Qingjie Zhang, Lijun Chi, <span class="me">Di Wang</span>, Mounira Msahli, Gerard Memmi, Tianwei Zhang, Chao Zhang, Han Qiu*</span></span>
+            </div>
+        </div>
+    </section>
+
+<!-- Preprint -->
+    <section id="preprint">
+        <h2 class="section-title">📄 Preprint</h2>
+        <div class="pub-list">
+            <div class="pub-item">
+                <span class="pub-title">A Case for Application-Aware Space Radiation Tolerance in Orbital Computing</span>
+                <span class="pub-authors-line"><span class="pub-authors">Meiqi Wang, Han Qiu, Longnv Xu, <span class="me">Di Wang</span>, Yuanjie Li, Tianwei Zhang, Jun Liu, Hewu Li</span></span>
             </div>
         </div>
     </section>
